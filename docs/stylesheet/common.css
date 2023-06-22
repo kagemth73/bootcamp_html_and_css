@@ -21,3 +21,26 @@ img {
   height: auto;
 }
 
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: fixed;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  display: inline-block;
+  margin-right: auto;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item {
+  margin: 0 30px;
+  display: flex;
+  list-style: none;
+}
